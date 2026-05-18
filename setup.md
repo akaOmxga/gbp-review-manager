@@ -1,6 +1,6 @@
 # setup.md — guide d'installation zéro à running
 
-Ce document décrit, étape par étape et dans l'ordre, comment passer d'une machine vierge à un backend GBP-Review-Manager qui démarre en local. Suit les conventions du [CLAUDE.md](CLAUDE.md) — toute nouvelle feature qui ajoute un prérequis externe (compte SaaS, clé API, package OS) doit être ajoutée ici.
+Ce document décrit, étape par étape et dans l'ordre, comment passer d'une machine vierge à un backend GBP-Pilot-Review qui démarre en local. Suit les conventions du [CLAUDE.md](CLAUDE.md) — toute nouvelle feature qui ajoute un prérequis externe (compte SaaS, clé API, package OS) doit être ajoutée ici.
 
 ---
 
@@ -83,8 +83,8 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 ## 3. Cloner et installer le backend
 
 ```bash
-git clone <repo-url> gbp-review-manager
-cd gbp-review-manager
+git clone <repo-url> gbp-pilot-review
+cd gbp-pilot-review
 uv sync                # crée backend/.venv et installe toutes les deps depuis backend/pyproject.toml
 ```
 

@@ -1,5 +1,5 @@
 [project]
-name = "gbp-review-manager"
+name = "gbp-pilot-review"
 version = "0.1.0"
 description = "Backend FastAPI/Celery pour l'automatisation des réponses aux avis Google Business Profile"
 readme = "../README.md"

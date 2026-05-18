@@ -1,4 +1,4 @@
-# gbp-review-manager
+# gbp-pilot-review
 
 ## Description
 

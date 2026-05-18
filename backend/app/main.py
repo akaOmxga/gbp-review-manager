@@ -45,7 +45,7 @@ async def lifespan(app: FastAPI):  # type: ignore[no-untyped-def]
 def create_app() -> FastAPI:
     settings = get_settings()
     app = FastAPI(
-        title="GBP Review Manager",
+        title="GBP Pilot Review",
         version="0.1.0",
         debug=settings.debug,
         lifespan=lifespan,

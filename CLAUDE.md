@@ -1,4 +1,4 @@
-# CLAUDE.md — GBP-Review-Manager (backend)
+# CLAUDE.md — GBP-Pilot-Review (backend)
 
 ## Project overview
 
@@ -64,4 +64,4 @@ All secrets live in `.env` (git-ignored). The canonical list is maintained in `.
 
 ## Remote debugging (VPS)
 
-To access the production environment, run `ssh vps`, then `cd ~/gbp-review-manager`.
+To access the production environment, run `ssh vps`, then `cd ~/gbp-pilot-review`.

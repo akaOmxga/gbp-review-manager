@@ -82,7 +82,7 @@ def send_pending_digests() -> int:
                 try:
                     await ResendClient().send_email(
                         to=pref.email_address,
-                        subject="Digest GBP Review Manager",
+                        subject="Digest GBP Pilot Review",
                         html=body_html,
                         text=body_text,
                     )
